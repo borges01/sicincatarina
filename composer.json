@@ -1,0 +1,21 @@
+{
+    "name": "cincatarina/sistema",
+    "authors": [
+        {
+            "name": "Borges",
+            "email": "borges@cincatarina.sc.gov.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    
+    "autoload": {
+        "psr-4": {
+            "MF\\":"vendor/MF/",
+            "Source\\":"source/"
+        }
+    },
+    "require": {
+        "coffeecode/router": "1.0.7"
+    }
+
+}
